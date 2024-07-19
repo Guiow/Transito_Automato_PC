@@ -1,0 +1,346 @@
+/* ---------------------------------- BOTOES -------------------------------------------- */
+.button
+{
+  -fx-background-color: #f0d969;
+  -fx-background-radius: 50px;
+  -fx-text-fill: black;
+  -fx-font-size: 20px;
+  -fx-font-weight: bold;
+  -fx-border-color: black;
+  -fx-border-radius: 50px;
+  -fx-border-width: 2px;
+}
+
+.button:hover
+{
+  -fx-cursor: hand;
+  -fx-background-color: #b2a200;
+}
+
+/* ---------------------------------- TOOLTIPS ------------------------------------------ */
+.tooltip
+{
+  -fx-text-fill: white;
+  -fx-font-size: 15px;
+  -fx-font-weight: bold;
+  -fx-background-radius: 20px;
+  -fx-background-color: #33333399;
+}
+
+/* -----------------------------------IMAGE VIEWS --------------------------------------- */
+.imagensDosPercursosOpacidade
+{
+  -fx-opacity: 0.5;
+}
+
+/* ----------------------------------- SLIDERS ------------------------------------------ */
+.slider
+{
+  -fx-background-radius: 15px;
+  -fx-border-width: 4px;
+  -fx-border-radius: 15px;
+}
+
+.slider .track
+{
+  -fx-background-radius: 3px;
+  -fx-border-color: black;
+  -fx-border-radius: 3px;
+}
+
+.slider .thumb
+{
+  -fx-background-color: transparent;
+  -fx-background-repeat: no-repeat;
+}
+
+.slider .track:hover
+{
+  -fx-cursor: hand;
+}
+
+.slider .thumb:hover
+{
+  -fx-cursor: hand;
+}
+/* ----------------------------------- SLIDER INDICE 0 ---------------------------------- */
+#sliderCarro0
+{
+  -fx-background-color: #ff888899;
+  -fx-border-color: #ba475299;
+}
+
+#sliderCarro0 .track
+{
+  -fx-background-color: #f80000;
+}
+
+#sliderCarro0 .thumb
+{
+  -fx-padding: 30px;
+  -fx-background-image: url("../images/icones/MarioIcone.png");
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- SLIDER INDICE 1 ---------------------------------- */
+#sliderCarro1
+{
+  -fx-background-color: #94ff9499;
+  -fx-border-color: #60a66099;
+}
+
+#sliderCarro1 .track
+{
+  -fx-background-color: #00f800;
+}
+
+#sliderCarro1 .thumb
+{
+  -fx-padding: 30px;
+  -fx-background-image: url("../images/icones/LuigiIcone.png");
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- SLIDER INDICE 2 ---------------------------------- */
+#sliderCarro2
+{
+  -fx-background-color: #e09d9d99;
+  -fx-border-color: #b35d5d99;
+}
+
+#sliderCarro2 .track
+{
+  -fx-background-color: #f85858;
+}
+
+#sliderCarro2 .thumb
+{
+  -fx-padding: 30px;
+  -fx-background-image: url("../images/icones/PeachPrincessIcone.png");
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- SLIDER INDICE 3 ---------------------------------- */
+#sliderCarro3
+{
+  -fx-background-color: #ffd36399;
+  -fx-border-color: #b58b2199;
+}
+
+#sliderCarro3 .track
+{
+  -fx-background-color: #ffb700;
+}
+
+#sliderCarro3 .thumb
+{
+  -fx-padding: 30px;
+  -fx-background-image: url("../images/icones/BowserIcone.png");
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- SLIDER INDICE 4 ---------------------------------- */
+
+#sliderCarro4
+{
+  -fx-background-color: #a250d999;
+  -fx-border-color: #6d3e6d99;
+}
+
+#sliderCarro4 .track
+{
+  -fx-background-color: #4b1270;
+}
+
+#sliderCarro4 .thumb
+{
+  -fx-padding: 30px;
+  -fx-background-image: url("../images/icones/WaluigiIcone.png");
+}
+/* -------------------------------------------------------------------------------------- */
+/* ----------------------------------- SLIDER INDICE 5 ---------------------------------- */
+#sliderCarro5
+{
+  -fx-background-color: #e8e6e899;
+  -fx-border-color: #96969699;
+}
+
+#sliderCarro5 .track
+{
+  -fx-background-color: #b9b8b9;
+}
+
+#sliderCarro5 .thumb
+{
+  -fx-padding: 30px;
+  -fx-background-image: url("../images/icones/GhostKingIcone.png");
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- SLIDER INDICE 6 ---------------------------------- */
+#sliderCarro6
+{
+  -fx-background-color: #594e5999;
+  -fx-border-color: #3d333d99;
+}
+
+#sliderCarro6 .track
+{
+  -fx-background-color: #2b2b2b;
+}
+
+#sliderCarro6 .thumb
+{
+  -fx-padding: 30px;
+  -fx-background-image: url("../images/icones/BombKingIcone.png");
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- SLIDER INDICE 7 ---------------------------------- */
+#sliderCarro7
+{
+  -fx-background-color: #966c4b99;
+  -fx-border-color: #7d593d99;
+}
+
+#sliderCarro7 .track
+{
+  -fx-background-color: #522f15;
+}
+
+#sliderCarro7 .thumb
+{
+  -fx-padding: 30px;
+  -fx-background-image: url("../images/icones/DonkeyKongIcone.png");
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- CHECK BOXES ---------------------------------------*/
+.check-box .mark
+{
+  -fx-padding: 15px;
+}
+
+.check-box .box
+{
+  -fx-padding: 8px;
+  -fx-border-width: 4px;
+  -fx-border-radius: 15px;
+  -fx-background-radius: 15px;
+}
+
+.check-box:hover
+{
+  -fx-cursor: hand;
+}
+
+.check-box:selected .mark
+{
+  -fx-background-color: black;
+  -fx-border-color: white;
+}
+
+/* ----------------------------------- CHECK BOX INDICE 0 ------------------------------- */
+#visualizadorDePercursoCarro0 .box
+{
+  -fx-background-color: #ff888899;
+  -fx-border-color: #ba475299;
+}
+
+#visualizadorDePercursoCarro0:hover .box
+{
+  -fx-background-color: #ba4752;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- CHECK BOX INDICE 1 ------------------------------- */
+#visualizadorDePercursoCarro1 .box
+{
+  -fx-background-color: #94ff9499;
+  -fx-border-color: #60a66099; 
+}
+
+#visualizadorDePercursoCarro1:hover .box
+{
+  -fx-background-color: #60a660;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- CHECK BOX INDICE 2 ------------------------------- */
+#visualizadorDePercursoCarro2 .box
+{
+  -fx-background-color: #e09d9d99;
+  -fx-border-color: #b35d5d99;
+}
+
+#visualizadorDePercursoCarro2:hover .box
+{
+  -fx-background-color: #b35d5d;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- CHECK BOX INDICE 3 ------------------------------- */
+#visualizadorDePercursoCarro3 .box
+{
+  -fx-background-color: #ffd36399;
+  -fx-border-color: #b58b2199;
+}
+
+#visualizadorDePercursoCarro3:hover .box
+{
+  -fx-background-color: #b58b21;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- CHECK BOX INDICE 4 ------------------------------- */
+#visualizadorDePercursoCarro4 .box
+{
+  -fx-background-color: #a250d999;
+  -fx-border-color: #6d3e6d99;
+}
+
+#visualizadorDePercursoCarro4:hover .box
+{
+  -fx-background-color: #6d3e6d;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- CHECK BOX INDICE 5 ------------------------------- */
+#visualizadorDePercursoCarro5 .box
+{
+  -fx-background-color: #e8e6e899;
+  -fx-border-color: #96969699;
+}
+
+#visualizadorDePercursoCarro5:hover .box
+{
+  -fx-background-color: #969696;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- CHECK BOX INDICE 6 ------------------------------- */
+#visualizadorDePercursoCarro6 .box 
+{
+  -fx-background-color: #594e5999;
+  -fx-border-color: #3d333d99;
+}
+
+#visualizadorDePercursoCarro6:hover .box
+{
+  -fx-background-color: #3d333d;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- CHECK BOX INDICE 7 ------------------------------- */
+#visualizadorDePercursoCarro7 .box
+{
+  -fx-background-color: #966c4b99;
+  -fx-border-color: #7d593d99;
+}
+
+#visualizadorDePercursoCarro7:hover .box
+{
+  -fx-background-color: #7d593d;
+}
+/* -------------------------------------------------------------------------------------- */
